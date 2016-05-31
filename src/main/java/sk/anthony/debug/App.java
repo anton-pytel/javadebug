@@ -19,5 +19,7 @@ public class App
 		// convert java object to JSON format,
 		String json = gson.toJson(xmc);
         System.out.println( json );
+    	double a = 2.450;
+    	System.out.println( String.format("%.0f",a) );
     }
 }
